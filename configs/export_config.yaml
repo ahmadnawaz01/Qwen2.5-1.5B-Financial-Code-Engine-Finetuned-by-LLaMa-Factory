@@ -1,0 +1,7 @@
+model_name_or_path: Qwen/Qwen2.5-1.5B-Instruct
+adapter_name_or_path: saves/Qwen2.5-1.5B/lora/dpo
+template: qwen
+finetuning_type: lora
+export_dir: merged_models/Qwen2.5-1.5B-Financial-Code-Engine
+export_size: 2
+export_device: cpu

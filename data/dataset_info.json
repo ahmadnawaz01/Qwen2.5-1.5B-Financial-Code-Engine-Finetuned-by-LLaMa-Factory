@@ -1,0 +1,27 @@
+{
+  "financial_qa": {
+    "hf_hub_url": "llamafactory/fiqa",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "python_code": {
+    "hf_hub_url": "flytech/python-codes-25k",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "dpo_pairs": {
+    "hf_hub_url": "argilla/distilabel-intel-orca-dpo-pairs",
+    "ranking": true,
+    "columns": {
+      "prompt": "input",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  }
+}
